@@ -1,6 +1,6 @@
 ﻿using WebAPI1.Entities;
+using WebAPI1.Repositories.Abstract;
 using WebAPI1.Services.Abstract;
-using static WebAPI1.Repositories.Abstract.IProductService;
 
 namespace WebAPI1.Services.Concrete
 {
