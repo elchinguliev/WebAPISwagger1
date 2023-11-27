@@ -1,6 +1,6 @@
-﻿using static WebAPI1.Repositories.Abstract.IProductService;
-using WebAPI1.Entities;
+﻿using WebAPI1.Entities;
 using WebAPI1.Data;
+using WebAPI1.Repositories.Abstract;
 
 namespace WebAPI1.Repositories.Concrete
 {

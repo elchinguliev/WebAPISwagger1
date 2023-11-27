@@ -4,10 +4,8 @@ using WebAPI1.Services.Abstract;
 
 namespace WebAPI1.Repositories.Abstract
 {
-    public interface IProductService : IService<Product>
+    public interface IProductRepository : IRepository<Product>
     {
-        public interface IProductRepository : IRepository<Product>
-        {
-        }
+
     }
 }

@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using static WebAPI1.Repositories.Abstract.IProductService;
 using WebAPI1.Data;
 using WebAPI1.Repositories.Abstract;
 using WebAPI1.Repositories.Concrete;
@@ -31,7 +30,7 @@ builder.Services.AddScoped<ICustomerService, CustomerService>();
 // Registrate Product
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-//builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 // Registrate Order
